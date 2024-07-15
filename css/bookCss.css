@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+body {
+	width: 640px;
+	margin: 0px auto;
+}
+
+h1 {
+	padding: 5px;
+	text-align: center;
+	background-color: #969CF0;
+	color: white;
+	border-radius: 30px;
+}
+
+form table {
+	text-align: center;
+	margin: 0px auto;
+}
+
+fieldset {
+	margin-bottom: 10px;
+	border-color: #DACBFF;
+	border-radius: 10px;
+}
+
+legend {
+	font-weight: bold;
+	font-size: 14px;
+	color: #9163FF;
+}
+
+table {
+	border-spacing: 10px 3px;
+}
+
+.addbtn {
+	text-align: right;
+	padding-right: 10px;
+}
+
+.addbtn2 {
+	padding: 3px 15px;
+	border-radius: 20px;
+	border: 1px solid #969CF0;
+	background-color: #969CF0;
+	color: white;
+}
+
+#fmInfo {
+	text-align: center;
+}
+
+form a {
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 20px;
+	color: #8A5EFF;
+}
+
+h2 {
+font-size: 28px;
+	text-align: center;
+	color: #967FFF;
+}

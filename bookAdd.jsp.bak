@@ -3,14 +3,6 @@
 <%@ page import="java.sql.*"%>
 <%@ page import="java.util.*"%>
 
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Book Add</title>
-<html>
-<body></body>
-</html>
 <%
 int bnum = Integer.parseInt(request.getParameter("bnum"));
 String name = request.getParameter("name");
@@ -37,9 +29,11 @@ int count = ps.executeUpdate();
 ps.close();
 conn.close();
 
-String msg = count > 0 ? "도서 추가 성공" : "도서 추가 실패";
+String msg= count>0?"도서 추가 성공":"도서 추가 실패";
 %>
 <script>
 window.alert('<%=msg%>');
-	window.location.href = 'bookLibrary.jsp';
+window.location.href='ex02.jsp';
 </script>
+
+#8080ff
