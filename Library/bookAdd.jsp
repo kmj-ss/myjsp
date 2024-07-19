@@ -8,6 +8,9 @@
 <head>
 <meta charset="UTF-8">
 <title>Book Add</title>
-<html>
+<link rel="stylesheet" type="text/css" href="/exweb/css/bookCss.css">
+</head>
+<body>
+	<%@ include file="bookHeader.jsp"%>
 <body></body>
 </html>

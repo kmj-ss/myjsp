@@ -7,7 +7,7 @@
 <meta charset="UTF-8">
 <title>Book List</title>
 <link rel="stylesheet" type="text/css" href="../css/bookCss.css">
-<style>
+<!-- <style>
 table {
 	border: 3px double #B6B1FF;
 	width: 600px;
@@ -27,10 +27,10 @@ th {
 td {
 	width: 120px;
 }
-</style>
+</style> -->
 </head>
 <body>
-
+	<%@ include file="bookHeader.jsp"%>
 	<section>
 		<article>
 			<h2>전체 도서 목록</h2>

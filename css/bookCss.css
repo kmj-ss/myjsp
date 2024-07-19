@@ -1,16 +1,55 @@
 @charset "UTF-8";
 
 body {
-	width: 640px;
+	width: 700px;
 	margin: 0px auto;
 }
 
-h1 {
+header div{
+	text-align: right;
+	font-size: 13px;
+}
+
+header h1 {
 	padding: 5px;
 	text-align: center;
 	background-color: #969CF0;
 	color: white;
 	border-radius: 30px;
+}
+
+nav {
+	float: left;
+	width: 100px;
+	height: 80vh;
+	text-align: center;
+	margin-right:10px;
+}
+
+nav ul{
+	padding: 0px;
+	
+}
+
+nav li{
+	list-style: none;
+	margin: 15px auto;
+}
+
+nav a{
+	text-decoration: none;
+}
+
+nav input{
+	width: 70px;
+	color: white;
+	border: 1px solid #33ccff;
+	background-color: #33ccff;
+	border-radius: 20px;
+	padding: 10px 0px;
+}
+nav input:hover{
+	cursor:pointer;
 }
 
 form table {

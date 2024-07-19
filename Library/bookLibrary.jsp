@@ -12,26 +12,6 @@
 	<section>
 		<article>
 			<fieldset>
-				<legend>도서 검색</legend>
-				<form name="fmSearch" action="bookSearch.jsp">
-					<table>
-						<tr>
-							<th><label>검색</label></th>
-							<td><select name="sort">
-									<option value="bnum">도서번호</option>
-									<option value="bname">제목</option>
-									<option value="writer">작가</option>
-									<option value="genre">장르</option>
-							</select></td>
-							<td><input type="text" name="info"></td>
-							<td><input type="submit" value="검색"></td>
-						</tr>
-					</table>
-				</form>
-			</fieldset>
-		</article>
-		<article>
-			<fieldset>
 				<legend>도서 추가</legend>
 				<form name="fmAdd" action="bookAdd.jsp">
 					<table>
